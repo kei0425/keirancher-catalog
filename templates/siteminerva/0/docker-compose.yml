@@ -1,0 +1,5 @@
+siteminerva:
+  image: kei0425/www-minerva:latest
+  environment:
+    VIRTUAL_HOST: ${public_host}
+    PORT: 80
